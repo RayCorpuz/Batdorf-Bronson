@@ -84,6 +84,10 @@ nav ul li {
   width: 60%;
 }
 
+.text-left h1 {
+  margin-bottom: -.3em;
+}
+
 .right {
   width: 50%;
   height: 44em;
@@ -108,4 +112,73 @@ nav ul li {
   width: 50%;
   height: 44em;
   background-image: url("../resources/images/cafe.png");
+}
+
+.right-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 44em;
+}
+
+.text-right-bottom {
+  width: 60%;
+}
+
+.text-right-bottom h1 {
+  margin-bottom: -.3em;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8.75em;
+  color: white;
+  background-color: black;
+}
+
+.footer-container {
+  /*border: 2px solid red;*/
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-left: 2.5em;
+}
+
+.footer-left {
+  /*border: 2px solid red;*/
+}
+
+.footer-left ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-left li {
+  display: flex;
+  margin-right: 2em;
+}
+
+footer img {
+  /*border: 2px solid red;*/
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  /*border: 2px solid red;*/
+}
+
+.footer-right ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-right li {
+  margin-right: 2em;
 }
