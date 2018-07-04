@@ -1,0 +1,13 @@
+/* Main Banner */
+.logo img {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
