@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-  width: 70em;
+  max-width: 70em;
   margin: auto;
 }
 
@@ -42,55 +42,34 @@ ul {
 
 /* Navigation */
 
-nav img {
-  /*border: 2px solid red;*/
-}
-
-.company-name {
-  /*border: 2px solid red;*/
-  text-align: center;
-  line-height: .3em;
-  width: 25%;
-  margin-right: 15em;
-}
-
-.company-name h1 {
-  font-family: 'Nunito', sans serif;
-  font-weight: 700;
-  font-size: 1.37em;
-}
-
-.company-name span {
-  font-family: garamond;
-  font-size: 1.3
-}
-
-.hamburger {
-  display: none;
-}
-
 nav {
-  /*border: 2px solid red;*/
   display: flex;
+  align-items: center;
   justify-content: space-between;
   color: white;
 }
 
 nav ul {
-  /*border: 2px solid red;*/
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   list-style-type: none;
-  margin-left:
 
 }
 
 nav li {
-  font-family: "nunito", sans serif;
-  font-weight: 530;
-  font-size: 0.85em;
-  margin-left: 2em;
+  margin-left: 1em;
+}
+
+.company-name {
+  display: flex;
+
+}
+
+.company-name h1 {
+  margin-left: 1em;
+}
+
+.hamburger {
+  display: none;
 }
 
 /* Top Section*/
@@ -207,45 +186,35 @@ footer li {
   font-size: 0.85em;
 }
 
-/* Phonne Media Queries */
+/* Phone Media Queries */
 
   /* Header */
 
   @media screen and (max-width: 640px) {
 
-   .main-banner {
-     background-image: none;
-     height: 5.5em;
-     max-width: 100%:
-   }
+    nav ul {
+      display: none;
+    }
 
-   .headline {
-     display: none;
-   }
+    nav {
+      color: black;
+    }
 
-   .company-name {
-     /*border: 2px solid red;*/
-     color: black;
-     width: 40%;
-   }
+    .hamburger {
+      display: flex;
+      align-items: center;
+      margin-right: 1.5em;
+      margin-bottom: .5em;
+    }
 
-   .container {
-     width: 40em;
-     flex-shrink: 2;
-   }
+    .hamburger img {
+      height: 2em;
+      width: 2.5em;
+    }
 
-   nav {
-     max-width: 100%;
-   }
-
-   nav ul {
-     display: none;
-   }
-
-   .hamburger {
-    display: flex;
-    align-items: center;
-    margin-right: 1.5em;
-   }
+    .main-banner {
+      background-image: none;
+      height: 4em;
+    }
 
   }
