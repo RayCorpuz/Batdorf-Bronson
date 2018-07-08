@@ -163,16 +163,18 @@ footer {
   height: 7.5em;
   display: flex;
   background-color: black;
+  max-width: 100%;
 }
 
 .footer-content {
   /*border: 2px solid red;*/
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2.5em;
   color: white;
+  margin: auto;
 }
 
 .footer-content ul li {
@@ -188,6 +190,10 @@ footer li {
   font-family: "nunito", sans serif;
   font-weight: 530;
   font-size: 0.85em;
+}
+
+.new-left-footer {
+  display: none;
 }
 
 /* Phone Media Queries */
@@ -303,4 +309,36 @@ footer li {
         justify-content: center;*/
         /*margin-top: 3em;*/
       }
+    }
+
+    /* Footer Section */
+
+    @media screen and (max-width: 640px) {
+
+
+      .left-footer{
+        display: none;
+      }
+
+      .right-footer {
+        display: none;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
+      .footer-content {
+        max-width: 100%;
+        display: block;
+      }
+
+      .logo img {
+        margin-right: 2.5em;
+      }
+
+      .new-left-footer {
+        display: inline;
+      }
+
     }
