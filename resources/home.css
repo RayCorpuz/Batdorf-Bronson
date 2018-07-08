@@ -95,7 +95,7 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  max-width: 50%;
   height: 44em;
 }
 
@@ -218,3 +218,36 @@ footer li {
     }
 
   }
+
+  /* Top-Section */
+
+    @media screen and (max-width: 640px) {
+      .top-right {
+        display: none;
+      }
+
+      .top-left{
+        /*border: 2px solid red;*/
+        max-width: 100%;
+        text-align: center;
+        height: 26.5em;
+        background-color: #03cefe;
+        margin-top: .5em;
+      }
+
+      .top-left-content {
+        width: 80%;
+      }
+
+      .top-left-content p {
+        line-height: 1.5em;
+      }
+
+      .top-left-content img {
+        margin-right: 6.3em;
+      }
+
+      .top-left-content h1 {
+        margin-bottom: -.5em;
+      }
+    }
