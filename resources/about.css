@@ -1,0 +1,156 @@
+/* Universal */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.container {
+  max-width: 70em;
+  margin: auto;
+}
+
+/* Main Bannner */
+
+.main-banner {
+  width: 100%;
+  height: 40em;
+  background-image: url("images/about/main_banner.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Navigation */
+
+nav {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.875em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1.3em;
+}
+
+.company-name {
+  display: flex;
+}
+
+.company-name h1 {
+  margin-left: 1em;
+}
+
+/* Our Story */
+
+.our-story-content {
+  display: flex;
+  height: 29em;
+}
+
+.text {
+  max-width: 70%;
+  margin: auto;
+}
+
+.text p {
+  line-height: 1.8em;
+}
+
+.text h1 {
+  margin-bottom: 0.2em;
+}
+
+/* Testimonial*/
+
+.testimonial {
+  background-image: url("images/about/testimonial.jpg");
+  max-width: 100%;
+  height: 33em;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textbox {
+  color: white;
+  width: 17em;
+  font-size: 2em;
+}
+
+.textbox p {
+  margin-left: 1em;
+}
+
+/* Our Promise */
+
+.our-promise-content {
+  display: flex;
+  height: 29em;
+}
+
+.text {
+  max-width: 70%;
+  margin: auto;
+}
+
+.text p {
+  line-height: 1.8em;
+}
+
+.text h1 {
+  margin-bottom: 0.2em;
+}
+
+/* Footer*/
+
+footer {
+  /*border: 2px solid red;*/
+  height: 7.5em;
+  display: flex;
+  background-color: black;
+  max-width: 100%;
+}
+
+.footer-content {
+  /*border: 2px solid red;*/
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5em;
+  color: white;
+  margin: auto;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-left: 3em;
+}
+
+.footer-content img {
+  margin-left: 3em;
+}
+
+footer li {
+  font-family: "nunito", sans serif;
+  font-weight: 530;
+  font-size: 0.85em;
+}

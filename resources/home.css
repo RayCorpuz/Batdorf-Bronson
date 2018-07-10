@@ -22,7 +22,7 @@ ul {
 /* Main Banner */
 
 .main-banner {
-  background-image: url("../resources/images/banner_3.png");
+  background-image: url("../resources/images/home/banner_3.png");
   width: 100%;
   height: 44em;
 }
@@ -134,7 +134,7 @@ nav li {
   /*border: 2px solid red;*/
   width: 50%;
   height: 44em;
-  background-image: url("../resources/images/cafe.png");
+  background-image: url("../resources/images/home/cafe.png");
 }
 
 .bottom-right{
