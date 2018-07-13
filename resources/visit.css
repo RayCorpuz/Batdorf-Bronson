@@ -1,0 +1,129 @@
+/* Universal */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+.container {
+  /*border: 2px solid red;*/
+  max-width: 70em;
+  margin: auto;
+}
+
+/* Navigation */
+
+nav {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.875em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1.3em;
+}
+
+.company-name {
+  display: flex;
+}
+
+.company-name h1 {
+  margin-left: 1em;
+}
+
+/* Sub-nav */
+
+.sub-nav {
+  /*border: 2px solid red;*/
+  text-align: center;
+  background-color: black;
+  height: 4.875em;
+  display: flex;
+}
+
+.text {
+  /*border: 2px solid red;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*max-width: 50%;*/
+  margin: auto;
+  color: white;
+}
+
+.text span {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+/* Locations Content */
+
+.white {
+  border: 2px solid red;
+  background-color: white;
+  max-width: 100%;
+  height: 34em;
+}
+
+.locations-container {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  max-width: 70em;
+  margin: auto;
+  height: 100%;
+}
+
+.place {
+  line-height: 2em;
+  margin-bottom: 2.3em;
+}
+
+.image {
+  margin-bottom: 3em;
+}
+
+
+.image h2 {
+  margin-bottom: -.6em;
+}
+
+.image span {
+  display: block
+}
+
+.info {
+  border: 2px solid red;
+  max-width: 40%;
+  margin: auto;
+}
+
+.address {
+  line-height: .4em;
+}
+
+.info {
+  margin-top: 12em;
+}
+
+.info .description {
+  margin-top: 3em;
+  line-height: 1.8em;
+}
