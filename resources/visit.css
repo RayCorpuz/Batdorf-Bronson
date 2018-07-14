@@ -76,19 +76,26 @@ nav li {
 /* Locations Content */
 
 .white {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   background-color: white;
   max-width: 100%;
   height: 34em;
 }
 
 .locations-container {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   display: flex;
   align-items: center;
+  /*justify-content: space-between;*/
   max-width: 70em;
   margin: auto;
   height: 100%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .place {
@@ -109,21 +116,80 @@ nav li {
   display: block
 }
 
-.info {
-  border: 2px solid red;
-  max-width: 40%;
+.info-right {
+  /*border: 2px solid red;*/
+  max-width: 43%;
   margin: auto;
 }
+
 
 .address {
   line-height: .4em;
 }
 
-.info {
+.info-right {
   margin-top: 12em;
+  margin-left: 12em;
 }
 
-.info .description {
+.info-right .description {
   margin-top: 3em;
   line-height: 1.8em;
+}
+
+.info-left {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 12em;
+  margin-right: 20em;
+}
+
+.info-left .description {
+  margin-top: 3em;
+  line-height: 1.8em;
+}
+
+.gray {
+  background-color: #f8f8f8;
+}
+
+.gray .image {
+  margin-top: 1.5em;
+  margin-bottom: 4.2em;
+}
+
+/* Footer*/
+
+footer {
+  /*border: 2px solid red;*/
+  height: 7.5em;
+  display: flex;
+  background-color: black;
+  max-width: 100%;
+}
+
+.footer-content {
+  /*border: 2px solid red;*/
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5em;
+  color: white;
+  margin: auto;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-left: 3em;
+}
+
+.footer-content img {
+  margin-left: 3em;
+}
+
+footer li {
+  font-family: "nunito", sans serif;
+  font-weight: 530;
+  font-size: 0.85em;
 }
